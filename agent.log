@@ -1,0 +1,1047 @@
+ 2025-08-04 17:47:36,817 - INFO - Computer Use Agent Started
+2025-08-04 17:48:22,133 - INFO - User Instruction: open chrome search amazon then in amazon search iphone15
+2025-08-04 17:48:22,911 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+t'}, {'action': 'type', 'target': 'address bar', 'text': 'amazon.com'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'wait', 'target': 'amazon loaded'}, {'action': 'type', 'target': 'search bar', 'text': 'iphone15'}]
+2025-08-04 17:48:22,912 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-04 17:48:22,912 - INFO - Executing action: open on 'chrome'
+2025-08-04 17:48:22,919 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-04 17:48:22,920 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-04 17:48:23,921 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-04 17:48:23,921 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-04 17:48:25,922 - INFO - Waited for: chrome loaded
+2025-08-04 17:48:25,923 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-04 17:48:25,924 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+t'}
+2025-08-04 17:48:25,925 - INFO - Executing action: hotkey on ''
+2025-08-04 17:48:26,033 - INFO - Pressed hotkey: ctrl+t
+2025-08-04 17:48:26,033 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+t'}
+2025-08-04 17:48:26,033 - INFO - Step 4: {'action': 'type', 'target': 'address bar', 'text': 'amazon.com'}
+2025-08-04 17:48:26,034 - INFO - Executing action: type on 'address bar'
+2025-08-04 17:48:26,968 - INFO - Typed 'amazon.com' in address bar
+2025-08-04 17:48:26,969 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'amazon.com'}
+2025-08-04 17:48:26,970 - INFO - Step 5: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-04 17:48:26,971 - INFO - Executing action: hotkey on ''
+2025-08-04 17:48:27,077 - INFO - Pressed hotkey: enter
+2025-08-04 17:48:27,077 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-04 17:48:27,078 - INFO - Step 6: {'action': 'wait', 'target': 'amazon loaded'}
+2025-08-04 17:48:27,079 - INFO - Executing action: wait on 'amazon loaded'
+2025-08-04 17:48:29,080 - INFO - Waited for: amazon loaded
+2025-08-04 17:48:29,081 - INFO - Executed Action: {'action': 'wait', 'target': 'amazon loaded'}
+2025-08-04 17:48:29,082 - INFO - Step 7: {'action': 'type', 'target': 'search bar', 'text': 'iphone15'}
+2025-08-04 17:48:29,083 - INFO - Executing action: type on 'search bar'
+2025-08-04 17:48:29,605 - INFO - Typed 'iphone15' at current focus
+2025-08-04 17:48:29,605 - INFO - Executed Action: {'action': 'type', 'target': 'search bar', 'text': 'iphone15'}
+2025-08-04 17:49:00,658 - INFO - User Instruction: open amazon in chrome and search bike spray
+2025-08-04 17:49:01,455 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+t'}, {'action': 'type', 'target': 'address bar', 'text': 'amazon.com'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'wait', 'target': 'page loaded'}, {'action': 'type', 'target': 'search bar', 'text': 'bike spray'}]
+2025-08-04 17:49:01,457 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-04 17:49:01,457 - INFO - Executing action: open on 'chrome'
+2025-08-04 17:49:01,461 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-04 17:49:01,463 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-04 17:49:02,465 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-04 17:49:02,465 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-04 17:49:04,467 - INFO - Waited for: chrome loaded
+2025-08-04 17:49:04,467 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-04 17:49:04,468 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+t'}
+2025-08-04 17:49:04,468 - INFO - Executing action: hotkey on ''
+2025-08-04 17:49:04,572 - INFO - Pressed hotkey: ctrl+t
+2025-08-04 17:49:04,573 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+t'}
+2025-08-04 17:49:04,574 - INFO - Step 4: {'action': 'type', 'target': 'address bar', 'text': 'amazon.com'}
+2025-08-04 17:49:04,574 - INFO - Executing action: type on 'address bar'
+2025-08-04 17:49:05,504 - INFO - Typed 'amazon.com' in address bar
+2025-08-04 17:49:05,505 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'amazon.com'}
+2025-08-04 17:49:05,506 - INFO - Step 5: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-04 17:49:05,507 - INFO - Executing action: hotkey on ''
+2025-08-04 17:49:05,611 - INFO - Pressed hotkey: enter
+2025-08-04 17:49:05,611 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-04 17:49:05,611 - INFO - Step 6: {'action': 'wait', 'target': 'page loaded'}
+2025-08-04 17:49:05,611 - INFO - Executing action: wait on 'page loaded'
+2025-08-04 17:49:07,612 - INFO - Waited for: page loaded
+2025-08-04 17:49:07,613 - INFO - Executed Action: {'action': 'wait', 'target': 'page loaded'}
+2025-08-04 17:49:07,614 - INFO - Step 7: {'action': 'type', 'target': 'search bar', 'text': 'bike spray'}
+2025-08-04 17:49:07,615 - INFO - Executing action: type on 'search bar'
+2025-08-04 17:49:08,251 - INFO - Typed 'bike spray' at current focus
+2025-08-04 17:49:08,252 - INFO - Executed Action: {'action': 'type', 'target': 'search bar', 'text': 'bike spray'}
+2025-08-07 17:06:36,984 - INFO - Computer Use Agent Started
+2025-08-07 17:13:48,614 - INFO - User Instruction: open recycle bin
+2025-08-07 17:13:49,365 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'recycle bin'}]
+2025-08-07 17:13:49,366 - INFO - Step 1: {'action': 'open', 'target': 'recycle bin'}
+2025-08-07 17:13:49,367 - INFO - Executing action: open on 'recycle bin'
+2025-08-07 17:13:51,255 - INFO - Opened application via Start menu: recycle bin
+2025-08-07 17:13:51,255 - INFO - Executed Action: {'action': 'open', 'target': 'recycle bin'}
+2025-08-07 17:14:05,951 - INFO - User Instruction: opne chatgpt
+2025-08-07 17:14:09,731 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chatgpt'}]
+2025-08-07 17:14:09,731 - INFO - Step 1: {'action': 'open', 'target': 'chatgpt'}
+2025-08-07 17:14:09,732 - INFO - Executing action: open on 'chatgpt'
+2025-08-07 17:14:10,069 - INFO - Opened application: chatgpt
+2025-08-07 17:14:10,070 - INFO - Executed Action: {'action': 'open', 'target': 'chatgpt'}
+2025-08-07 17:15:06,415 - INFO - User Instruction: click youtube
+2025-08-07 17:15:17,639 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'youtube'}]
+2025-08-07 17:15:17,641 - INFO - Step 1: {'action': 'click', 'target': 'youtube'}
+2025-08-07 17:15:17,823 - INFO - Screenshot captured: screenshots\screen_step_1_click_youtube.png
+2025-08-07 17:15:17,883 - INFO - Screenshot captured: screenshots\screen_step_1_click_youtube.png
+2025-08-07 17:15:38,235 - INFO - OmniParser extracted 17 elements
+2025-08-07 17:15:38,236 - INFO - Parsed Screen Content: 17 UI elements
+2025-08-07 17:15:38,236 - INFO - Executing action: click on 'youtube'
+2025-08-07 17:15:38,694 - INFO - Clicked on 'youtube' at (890, 673)
+2025-08-07 17:15:38,694 - INFO - Executed Action: {'action': 'click', 'target': 'youtube'}
+2025-08-07 17:16:39,627 - INFO - User Instruction: click shorts
+2025-08-07 17:16:40,127 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'shorts'}]
+2025-08-07 17:16:40,128 - INFO - Step 1: {'action': 'click', 'target': 'shorts'}
+2025-08-07 17:16:40,201 - INFO - Screenshot captured: screenshots\screen_step_1_click_shorts.png
+2025-08-07 17:16:40,280 - INFO - Screenshot captured: screenshots\screen_step_1_click_shorts.png
+2025-08-07 17:16:51,092 - INFO - OmniParser extracted 29 elements
+2025-08-07 17:16:51,093 - INFO - Parsed Screen Content: 29 UI elements
+2025-08-07 17:16:51,093 - INFO - Executing action: click on 'shorts'
+2025-08-07 17:16:51,556 - INFO - Clicked on 'shorts' at (115, 269)
+2025-08-07 17:16:51,556 - INFO - Executed Action: {'action': 'click', 'target': 'shorts'}
+2025-08-07 17:17:33,185 - INFO - User Instruction: open chrome search youtube
+2025-08-07 17:17:35,365 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}]
+2025-08-07 17:17:35,366 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:17:35,367 - INFO - Executing action: open on 'chrome'
+2025-08-07 17:17:35,375 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 17:17:35,375 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:17:36,377 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:17:36,377 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 17:17:38,379 - INFO - Waited for: chrome loaded
+2025-08-07 17:17:38,380 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:17:38,381 - INFO - Step 3: {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}
+2025-08-07 17:17:38,381 - INFO - Executing action: type on 'address bar'
+2025-08-07 17:17:39,371 - INFO - Typed 'youtube.com' in address bar
+2025-08-07 17:17:39,371 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}
+2025-08-07 17:18:43,295 - INFO - User Instruction: open edge then search youtube then click youtube
+2025-08-07 17:18:44,421 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'edge'}, {'action': 'wait', 'target': 'edge loaded'}, {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'click', 'target': 'youtube'}]
+2025-08-07 17:18:44,423 - INFO - Step 1: {'action': 'open', 'target': 'edge'}
+2025-08-07 17:18:44,423 - INFO - Executing action: open on 'edge'
+2025-08-07 17:18:45,945 - INFO - Opened application via Start menu: edge
+2025-08-07 17:18:45,945 - INFO - Executed Action: {'action': 'open', 'target': 'edge'}
+2025-08-07 17:18:46,947 - INFO - Step 2: {'action': 'wait', 'target': 'edge loaded'}
+2025-08-07 17:18:46,948 - INFO - Executing action: wait on 'edge loaded'
+2025-08-07 17:18:48,949 - INFO - Waited for: edge loaded
+2025-08-07 17:18:48,949 - INFO - Executed Action: {'action': 'wait', 'target': 'edge loaded'}
+2025-08-07 17:18:48,949 - INFO - Step 3: {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}
+2025-08-07 17:18:48,950 - INFO - Executing action: type on 'address bar'
+2025-08-07 17:18:49,928 - INFO - Typed 'youtube.com' in address bar
+2025-08-07 17:18:49,928 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}
+2025-08-07 17:18:49,930 - INFO - Step 4: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:18:49,931 - INFO - Executing action: hotkey on ''
+2025-08-07 17:18:50,038 - INFO - Pressed hotkey: enter
+2025-08-07 17:18:50,038 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:18:50,039 - INFO - Step 5: {'action': 'click', 'target': 'youtube'}
+2025-08-07 17:18:50,357 - INFO - Screenshot captured: screenshots\screen_step_5_click_youtube.png
+2025-08-07 17:18:50,572 - INFO - Screenshot captured: screenshots\screen_step_5_click_youtube.png
+2025-08-07 17:19:04,497 - INFO - OmniParser extracted 41 elements
+2025-08-07 17:19:04,497 - INFO - Parsed Screen Content: 41 UI elements
+2025-08-07 17:19:04,497 - INFO - Executing action: click on 'youtube'
+2025-08-07 17:19:04,961 - INFO - Clicked on 'youtube' at (1206, 133)
+2025-08-07 17:19:04,961 - INFO - Executed Action: {'action': 'click', 'target': 'youtube'}
+2025-08-07 17:21:03,262 - INFO - User Instruction: click google chrome
+2025-08-07 17:21:04,411 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'google chrome'}]
+2025-08-07 17:21:04,412 - INFO - Step 1: {'action': 'click', 'target': 'google chrome'}
+2025-08-07 17:21:04,559 - INFO - Screenshot captured: screenshots\screen_step_1_click_google_chrome.png
+2025-08-07 17:21:04,691 - INFO - Screenshot captured: screenshots\screen_step_1_click_google_chrome.png
+2025-08-07 17:21:16,159 - INFO - OmniParser extracted 22 elements
+2025-08-07 17:21:16,159 - INFO - Parsed Screen Content: 22 UI elements
+2025-08-07 17:21:16,159 - INFO - Executing action: click on 'google chrome'
+2025-08-07 17:21:16,159 - WARNING - Could not find element: 'google chrome'
+2025-08-07 17:21:16,159 - ERROR - Failed to execute action: {'action': 'click', 'target': 'google chrome'}
+2025-08-07 17:21:45,629 - INFO - User Instruction: click chrome
+2025-08-07 17:21:46,804 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'chrome'}]
+2025-08-07 17:21:46,805 - INFO - Step 1: {'action': 'click', 'target': 'chrome'}
+2025-08-07 17:21:46,949 - INFO - Screenshot captured: screenshots\screen_step_1_click_chrome.png
+2025-08-07 17:21:47,090 - INFO - Screenshot captured: screenshots\screen_step_1_click_chrome.png
+2025-08-07 17:21:57,341 - INFO - OmniParser extracted 22 elements
+2025-08-07 17:21:57,342 - INFO - Parsed Screen Content: 22 UI elements
+2025-08-07 17:21:57,342 - INFO - Executing action: click on 'chrome'
+2025-08-07 17:21:57,806 - INFO - Clicked on 'chrome' at (48, 852)
+2025-08-07 17:21:57,807 - INFO - Executed Action: {'action': 'click', 'target': 'chrome'}
+2025-08-07 17:38:40,585 - INFO - User Instruction: quit
+2025-08-07 17:38:41,279 - WARNING - LLM parsing failed, using fallback
+2025-08-07 17:38:41,279 - INFO - Interpreted Instructions: [{'action': 'unknown', 'target': 'quit'}]
+2025-08-07 17:38:41,280 - INFO - Step 1: {'action': 'unknown', 'target': 'quit'}
+2025-08-07 17:38:41,281 - INFO - Executing action: unknown on 'quit'
+2025-08-07 17:38:41,281 - WARNING - Unknown action: unknown
+2025-08-07 17:38:41,281 - ERROR - Failed to execute action: {'action': 'unknown', 'target': 'quit'}
+2025-08-07 17:38:49,907 - INFO - Agent Stopped by User
+2025-08-07 17:39:04,411 - INFO - Computer Use Agent Started
+2025-08-07 17:41:11,756 - INFO - User Instruction: clck view then click editor layout
+2025-08-07 17:41:12,239 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'view'}, {'action': 'click', 'target': 'editor layout'}]
+2025-08-07 17:41:12,241 - INFO - Step 1: {'action': 'click', 'target': 'view'}
+2025-08-07 17:41:12,413 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-07 17:41:12,484 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-07 17:41:38,223 - INFO - OmniParser extracted 175 elements
+2025-08-07 17:41:38,223 - INFO - Parsed Screen Content: 175 UI elements
+2025-08-07 17:41:38,223 - INFO - Executing action: click on 'view'
+2025-08-07 17:41:38,686 - INFO - Clicked on 'view' at (249, 23)
+2025-08-07 17:41:38,686 - INFO - Executed Action: {'action': 'click', 'target': 'view'}
+2025-08-07 17:41:38,689 - INFO - Step 2: {'action': 'click', 'target': 'editor layout'}
+2025-08-07 17:41:38,787 - INFO - Screenshot captured: screenshots\screen_step_2_click_editor_layout.png
+2025-08-07 17:41:38,861 - INFO - Screenshot captured: screenshots\screen_step_2_click_editor_layout.png
+2025-08-07 17:41:57,654 - INFO - OmniParser extracted 190 elements
+2025-08-07 17:41:57,655 - INFO - Parsed Screen Content: 190 UI elements
+2025-08-07 17:41:57,655 - INFO - Executing action: click on 'editor layout'
+2025-08-07 17:41:58,116 - INFO - Clicked on 'editor layout' at (306, 169)
+2025-08-07 17:41:58,116 - INFO - Executed Action: {'action': 'click', 'target': 'editor layout'}
+2025-08-07 17:42:47,908 - INFO - User Instruction: goto chrome search youtube then click it then search despacito
+2025-08-07 17:42:48,433 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+l'}, {'action': 'type', 'target': 'address bar', 'text': 'youtube'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'click', 'target': 'youtube search button'}, {'action': 'type', 'target': 'search input', 'text': 'despacito'}]
+2025-08-07 17:42:48,434 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:42:48,434 - INFO - Executing action: open on 'chrome'
+2025-08-07 17:42:48,444 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 17:42:48,445 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:42:49,446 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:42:49,447 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 17:42:51,448 - INFO - Waited for: chrome loaded
+2025-08-07 17:42:51,448 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:42:51,450 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+l'}
+2025-08-07 17:42:51,450 - INFO - Executing action: hotkey on ''
+2025-08-07 17:42:51,552 - INFO - Pressed hotkey: ctrl+l
+2025-08-07 17:42:51,555 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+l'}
+2025-08-07 17:42:51,556 - INFO - Step 4: {'action': 'type', 'target': 'address bar', 'text': 'youtube'}
+2025-08-07 17:42:51,557 - INFO - Executing action: type on 'address bar'
+2025-08-07 17:42:52,332 - INFO - Typed 'youtube' in address bar
+2025-08-07 17:42:52,332 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'youtube'}
+2025-08-07 17:42:52,332 - INFO - Step 5: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:42:52,333 - INFO - Executing action: hotkey on ''
+2025-08-07 17:42:52,434 - INFO - Pressed hotkey: enter
+2025-08-07 17:42:52,434 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:42:52,434 - INFO - Step 6: {'action': 'click', 'target': 'youtube search button'}
+2025-08-07 17:42:52,519 - INFO - Screenshot captured: screenshots\screen_step_6_click_youtube_search_button.png
+2025-08-07 17:42:52,594 - INFO - Screenshot captured: screenshots\screen_step_6_click_youtube_search_button.png
+2025-08-07 17:43:09,247 - INFO - OmniParser extracted 138 elements
+2025-08-07 17:43:09,247 - INFO - Parsed Screen Content: 138 UI elements
+2025-08-07 17:43:09,247 - INFO - Executing action: click on 'youtube search button'
+2025-08-07 17:43:09,247 - WARNING - Could not find element: 'youtube search button'
+2025-08-07 17:43:09,247 - ERROR - Failed to execute action: {'action': 'click', 'target': 'youtube search button'}
+2025-08-07 17:46:34,338 - INFO - User Instruction: goto chrome search Infosys then click infosys website
+2025-08-07 17:46:35,570 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'type', 'target': 'search bar', 'text': 'Infosys'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'click', 'target': 'Infosys website'}]
+2025-08-07 17:46:35,572 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:46:35,573 - INFO - Executing action: open on 'chrome'
+2025-08-07 17:46:35,579 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 17:46:35,579 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:46:36,581 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:46:36,583 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 17:46:38,584 - INFO - Waited for: chrome loaded
+2025-08-07 17:46:38,584 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:46:38,585 - INFO - Step 3: {'action': 'type', 'target': 'search bar', 'text': 'Infosys'}
+2025-08-07 17:46:38,586 - INFO - Executing action: type on 'search bar'
+2025-08-07 17:46:39,060 - INFO - Typed 'Infosys' at current focus
+2025-08-07 17:46:39,060 - INFO - Executed Action: {'action': 'type', 'target': 'search bar', 'text': 'Infosys'}
+2025-08-07 17:46:39,060 - INFO - Step 4: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:46:39,060 - INFO - Executing action: hotkey on ''
+2025-08-07 17:46:39,162 - INFO - Pressed hotkey: enter
+2025-08-07 17:46:39,162 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:46:39,163 - INFO - Step 5: {'action': 'click', 'target': 'Infosys website'}
+2025-08-07 17:46:39,267 - INFO - Screenshot captured: screenshots\screen_step_5_click_Infosys_website.png
+2025-08-07 17:46:39,342 - INFO - Screenshot captured: screenshots\screen_step_5_click_Infosys_website.png
+2025-08-07 17:46:56,795 - INFO - OmniParser extracted 149 elements
+2025-08-07 17:46:56,796 - INFO - Parsed Screen Content: 149 UI elements
+2025-08-07 17:46:56,796 - INFO - Executing action: click on 'Infosys website'
+2025-08-07 17:46:56,796 - WARNING - Could not find element: 'Infosys website'
+2025-08-07 17:46:56,796 - ERROR - Failed to execute action: {'action': 'click', 'target': 'Infosys website'}
+2025-08-07 17:48:34,027 - INFO - User Instruction: goto chrome search Infosys then click infosys
+2025-08-07 17:48:35,133 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'type', 'target': 'address bar', 'text': 'Infosys'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'click', 'target': 'Infosys'}]
+2025-08-07 17:48:35,134 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:48:35,135 - INFO - Executing action: open on 'chrome'
+2025-08-07 17:48:35,141 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 17:48:35,141 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 17:48:36,143 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:48:36,144 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 17:48:38,146 - INFO - Waited for: chrome loaded
+2025-08-07 17:48:38,149 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 17:48:38,151 - INFO - Step 3: {'action': 'type', 'target': 'address bar', 'text': 'Infosys'}
+2025-08-07 17:48:38,152 - INFO - Executing action: type on 'address bar'
+2025-08-07 17:48:38,941 - INFO - Typed 'Infosys' in address bar
+2025-08-07 17:48:38,941 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'Infosys'}
+2025-08-07 17:48:38,941 - INFO - Step 4: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:48:38,943 - INFO - Executing action: hotkey on ''
+2025-08-07 17:48:39,045 - INFO - Pressed hotkey: enter
+2025-08-07 17:48:39,045 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 17:48:39,046 - INFO - Step 5: {'action': 'click', 'target': 'Infosys'}
+2025-08-07 17:48:39,145 - INFO - Screenshot captured: screenshots\screen_step_5_click_Infosys.png
+2025-08-07 17:48:39,227 - INFO - Screenshot captured: screenshots\screen_step_5_click_Infosys.png
+2025-08-07 17:48:57,221 - INFO - OmniParser extracted 158 elements
+2025-08-07 17:48:57,222 - INFO - Parsed Screen Content: 158 UI elements
+2025-08-07 17:48:57,222 - INFO - Executing action: click on 'Infosys'
+2025-08-07 17:48:57,684 - INFO - Clicked on 'Infosys' at (281, 378)
+2025-08-07 17:48:57,684 - INFO - Executed Action: {'action': 'click', 'target': 'Infosys'}
+2025-08-07 18:21:00,946 - INFO - User Instruction: open chrome then maximize th window
+2025-08-07 18:21:04,416 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'f11'}]
+2025-08-07 18:21:04,416 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:21:04,416 - INFO - Executing action: open on 'chrome'
+2025-08-07 18:21:04,422 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 18:21:04,423 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:21:05,425 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:21:05,425 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 18:21:07,426 - INFO - Waited for: chrome loaded
+2025-08-07 18:21:07,426 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:21:07,428 - INFO - Step 3: {'action': 'hotkey', 'keys': 'f11'}
+2025-08-07 18:21:07,428 - INFO - Executing action: hotkey on ''
+2025-08-07 18:21:07,532 - INFO - Pressed hotkey: f11
+2025-08-07 18:21:07,532 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'f11'}
+2025-08-07 18:21:55,191 - INFO - User Instruction: goto chrome then maximize window then search Infosys then click infosys
+2025-08-07 18:21:57,137 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+w'}, {'action': 'type', 'target': 'address bar', 'text': 'Infosys'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'click', 'target': 'Infosys'}]
+2025-08-07 18:21:57,138 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:21:57,138 - INFO - Executing action: open on 'chrome'
+2025-08-07 18:21:57,142 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 18:21:57,142 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:21:58,143 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:21:58,143 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 18:22:00,145 - INFO - Waited for: chrome loaded
+2025-08-07 18:22:00,146 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:22:00,147 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+w'}
+2025-08-07 18:22:00,147 - INFO - Executing action: hotkey on ''
+2025-08-07 18:22:00,254 - INFO - Pressed hotkey: ctrl+w
+2025-08-07 18:22:00,254 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+w'}
+2025-08-07 18:22:00,255 - INFO - Step 4: {'action': 'type', 'target': 'address bar', 'text': 'Infosys'}
+2025-08-07 18:22:00,255 - INFO - Executing action: type on 'address bar'
+2025-08-07 18:22:01,031 - INFO - Typed 'Infosys' in address bar
+2025-08-07 18:22:01,031 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'Infosys'}
+2025-08-07 18:22:01,031 - INFO - Step 5: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 18:22:01,032 - INFO - Executing action: hotkey on ''
+2025-08-07 18:22:01,135 - INFO - Pressed hotkey: enter
+2025-08-07 18:22:01,135 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-07 18:22:01,136 - INFO - Step 6: {'action': 'click', 'target': 'Infosys'}
+2025-08-07 18:22:01,202 - INFO - Screenshot captured: screenshots\screen_step_6_click_Infosys.png
+2025-08-07 18:22:01,261 - INFO - Screenshot captured: screenshots\screen_step_6_click_Infosys.png
+2025-08-07 18:22:22,063 - INFO - OmniParser extracted 9 elements
+2025-08-07 18:22:22,064 - INFO - Parsed Screen Content: 9 UI elements
+2025-08-07 18:22:22,064 - INFO - Executing action: click on 'Infosys'
+2025-08-07 18:22:22,064 - WARNING - Could not find element: 'Infosys'
+2025-08-07 18:22:22,065 - ERROR - Failed to execute action: {'action': 'click', 'target': 'Infosys'}
+2025-08-07 18:22:22,065 - INFO - User Instruction: Infosys
+2025-08-07 18:22:23,095 - WARNING - LLM parsing failed, using fallback
+2025-08-07 18:22:23,095 - INFO - Interpreted Instructions: [{'action': 'unknown', 'target': 'infosys'}]
+2025-08-07 18:22:23,095 - INFO - Step 1: {'action': 'unknown', 'target': 'infosys'}
+2025-08-07 18:22:23,096 - INFO - Executing action: unknown on 'infosys'
+2025-08-07 18:22:23,096 - WARNING - Unknown action: unknown
+2025-08-07 18:22:23,096 - ERROR - Failed to execute action: {'action': 'unknown', 'target': 'infosys'}
+2025-08-07 18:22:44,041 - INFO - User Instruction: goto chrome then maximize window then search Infosys
+2025-08-07 18:22:44,850 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'f11'}]
+2025-08-07 18:22:44,851 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:22:44,851 - INFO - Executing action: open on 'chrome'
+2025-08-07 18:22:44,857 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 18:22:44,857 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:22:45,859 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:22:45,859 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 18:22:47,861 - INFO - Waited for: chrome loaded
+2025-08-07 18:22:47,861 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:22:47,862 - INFO - Step 3: {'action': 'hotkey', 'keys': 'f11'}
+2025-08-07 18:22:47,863 - INFO - Executing action: hotkey on ''
+2025-08-07 18:22:47,967 - INFO - Pressed hotkey: f11
+2025-08-07 18:22:47,968 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'f11'}
+2025-08-07 18:23:27,755 - INFO - User Instruction: goto chrome then maximize window then click youtube
+2025-08-07 18:23:29,575 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+w'}, {'action': 'click', 'target': 'youtube'}]
+2025-08-07 18:23:29,576 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:23:29,578 - INFO - Executing action: open on 'chrome'
+2025-08-07 18:23:29,581 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 18:23:29,582 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:23:30,583 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:23:30,583 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 18:23:32,584 - INFO - Waited for: chrome loaded
+2025-08-07 18:23:32,584 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:23:32,585 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+w'}
+2025-08-07 18:23:32,585 - INFO - Executing action: hotkey on ''
+2025-08-07 18:23:32,689 - INFO - Pressed hotkey: ctrl+w
+2025-08-07 18:23:32,689 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+w'}
+2025-08-07 18:23:32,689 - INFO - Step 4: {'action': 'click', 'target': 'youtube'}
+2025-08-07 18:23:32,854 - INFO - Screenshot captured: screenshots\screen_step_4_click_youtube.png
+2025-08-07 18:23:33,040 - INFO - Screenshot captured: screenshots\screen_step_4_click_youtube.png
+2025-08-07 18:23:44,480 - INFO - OmniParser extracted 22 elements
+2025-08-07 18:23:44,480 - INFO - Parsed Screen Content: 22 UI elements
+2025-08-07 18:23:44,480 - INFO - Executing action: click on 'youtube'
+2025-08-07 18:23:44,480 - WARNING - Could not find element: 'youtube'
+2025-08-07 18:23:44,480 - ERROR - Failed to execute action: {'action': 'click', 'target': 'youtube'}
+2025-08-07 18:23:50,441 - INFO - User Instruction: goto chrome then maximize window then click youtube
+2025-08-07 18:23:50,918 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+w'}, {'action': 'click', 'target': 'youtube'}]
+2025-08-07 18:23:50,919 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:23:50,919 - INFO - Executing action: open on 'chrome'
+2025-08-07 18:23:50,922 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 18:23:50,922 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:23:51,923 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:23:51,923 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 18:23:53,924 - INFO - Waited for: chrome loaded
+2025-08-07 18:23:53,924 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:23:53,924 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+w'}
+2025-08-07 18:23:53,925 - INFO - Executing action: hotkey on ''
+2025-08-07 18:23:54,029 - INFO - Pressed hotkey: ctrl+w
+2025-08-07 18:23:54,029 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+w'}
+2025-08-07 18:23:54,030 - INFO - Step 4: {'action': 'click', 'target': 'youtube'}
+2025-08-07 18:23:54,184 - INFO - Screenshot captured: screenshots\screen_step_4_click_youtube.png
+2025-08-07 18:23:54,330 - INFO - Screenshot captured: screenshots\screen_step_4_click_youtube.png
+2025-08-07 18:24:05,765 - INFO - OmniParser extracted 22 elements
+2025-08-07 18:24:05,766 - INFO - Parsed Screen Content: 22 UI elements
+2025-08-07 18:24:05,766 - INFO - Executing action: click on 'youtube'
+2025-08-07 18:24:05,766 - WARNING - Could not find element: 'youtube'
+2025-08-07 18:24:05,766 - ERROR - Failed to execute action: {'action': 'click', 'target': 'youtube'}
+2025-08-07 18:24:17,030 - INFO - User Instruction: goto chrome then maximize window
+2025-08-07 18:24:18,117 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'f11'}]
+2025-08-07 18:24:18,118 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:24:18,119 - INFO - Executing action: open on 'chrome'
+2025-08-07 18:24:18,124 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-07 18:24:18,124 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-07 18:24:19,126 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:24:19,126 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-07 18:24:21,127 - INFO - Waited for: chrome loaded
+2025-08-07 18:24:21,127 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-07 18:24:21,128 - INFO - Step 3: {'action': 'hotkey', 'keys': 'f11'}
+2025-08-07 18:24:21,128 - INFO - Executing action: hotkey on ''
+2025-08-07 18:24:21,232 - INFO - Pressed hotkey: f11
+2025-08-07 18:24:21,232 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'f11'}
+2025-08-07 18:25:00,008 - INFO - User Instruction: click youtube then search despacito and click despacito
+2025-08-07 18:25:00,546 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'youtube'}, {'action': 'type', 'target': 'search bar', 'text': 'despacito'}, {'action': 'click', 'target': 'despacito'}]
+2025-08-07 18:25:00,548 - INFO - Step 1: {'action': 'click', 'target': 'youtube'}
+2025-08-07 18:25:00,604 - INFO - Screenshot captured: screenshots\screen_step_1_click_youtube.png
+2025-08-07 18:25:00,655 - INFO - Screenshot captured: screenshots\screen_step_1_click_youtube.png
+2025-08-07 18:25:11,226 - INFO - OmniParser extracted 9 elements
+2025-08-07 18:25:11,226 - INFO - Parsed Screen Content: 9 UI elements
+2025-08-07 18:25:11,226 - INFO - Executing action: click on 'youtube'
+2025-08-07 18:25:11,686 - INFO - Clicked on 'youtube' at (891, 567)
+2025-08-07 18:25:11,686 - INFO - Executed Action: {'action': 'click', 'target': 'youtube'}
+2025-08-07 18:25:11,687 - INFO - Step 2: {'action': 'type', 'target': 'search bar', 'text': 'despacito'}
+2025-08-07 18:25:11,687 - INFO - Executing action: type on 'search bar'
+2025-08-07 18:25:12,258 - INFO - Typed 'despacito' at current focus
+2025-08-07 18:25:12,258 - INFO - Executed Action: {'action': 'type', 'target': 'search bar', 'text': 'despacito'}
+2025-08-07 18:25:12,259 - INFO - Step 3: {'action': 'click', 'target': 'despacito'}
+2025-08-07 18:25:12,312 - INFO - Screenshot captured: screenshots\screen_step_3_click_despacito.png
+2025-08-07 18:25:12,352 - INFO - Screenshot captured: screenshots\screen_step_3_click_despacito.png
+2025-08-07 18:25:23,656 - INFO - OmniParser extracted 1 elements
+2025-08-07 18:25:23,657 - INFO - Parsed Screen Content: 1 UI elements
+2025-08-07 18:25:23,658 - INFO - Executing action: click on 'despacito'
+2025-08-07 18:25:23,658 - WARNING - Could not find element: 'despacito'
+2025-08-07 18:25:23,659 - ERROR - Failed to execute action: {'action': 'click', 'target': 'despacito'}
+2025-08-07 23:08:09,555 - INFO - Agent Stopped by User
+2025-08-07 23:11:44,837 - INFO - Computer Use Agent Started
+2025-08-07 23:12:27,949 - INFO - User Instruction: click view then click explorer
+2025-08-07 23:12:28,592 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'view'}, {'action': 'click', 'target': 'explorer'}]
+2025-08-07 23:12:28,593 - INFO - Step 1: {'action': 'click', 'target': 'view'}
+2025-08-07 23:12:28,759 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-07 23:12:28,857 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-07 23:12:58,146 - INFO - OmniParser extracted 140 elements
+2025-08-07 23:12:58,147 - INFO - Parsed Screen Content: 140 UI elements
+2025-08-07 23:12:58,147 - INFO - Executing action: click on 'view'
+2025-08-07 23:12:58,614 - INFO - Clicked on 'view' at (249, 23)
+2025-08-07 23:12:58,614 - INFO - Executed Action: {'action': 'click', 'target': 'view'}
+2025-08-07 23:12:58,615 - INFO - Step 2: {'action': 'click', 'target': 'explorer'}
+2025-08-07 23:12:58,712 - INFO - Screenshot captured: screenshots\screen_step_2_click_explorer.png
+2025-08-07 23:12:58,799 - INFO - Screenshot captured: screenshots\screen_step_2_click_explorer.png
+2025-08-07 23:13:20,933 - INFO - OmniParser extracted 155 elements
+2025-08-07 23:13:20,935 - INFO - Parsed Screen Content: 155 UI elements
+2025-08-07 23:13:20,935 - INFO - Executing action: click on 'explorer'
+2025-08-07 23:13:21,395 - INFO - Clicked on 'explorer' at (118, 67)
+2025-08-07 23:13:21,395 - INFO - Executed Action: {'action': 'click', 'target': 'explorer'}
+2025-08-23 17:41:20,492 - INFO - Computer Use Agent Started
+2025-08-23 17:41:49,860 - INFO - User Instruction: go to view then click extensions
+2025-08-23 17:41:50,551 - INFO - Interpreted Instructions: [{'action': 'navigate', 'target': 'view'}, {'action': 'click', 'target': 'extensions'}]
+2025-08-23 17:41:50,551 - INFO - Step 1: {'action': 'navigate', 'target': 'view'}
+2025-08-23 17:41:50,553 - INFO - Executing action: navigate on 'view'
+2025-08-23 17:41:50,553 - ERROR - Folder does not exist: view
+2025-08-23 17:41:50,553 - ERROR - Failed to execute action: {'action': 'navigate', 'target': 'view'}
+2025-08-23 17:41:59,321 - INFO - User Instruction: click view
+2025-08-23 17:41:59,875 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'view'}]
+2025-08-23 17:41:59,876 - INFO - Step 1: {'action': 'click', 'target': 'view'}
+2025-08-23 17:42:00,089 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-23 17:42:00,209 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-23 17:42:50,032 - INFO - OmniParser extracted 170 elements
+2025-08-23 17:42:50,033 - INFO - Parsed Screen Content: 170 UI elements
+2025-08-23 17:42:50,034 - INFO - Executing action: click on 'view'
+2025-08-23 17:42:50,495 - INFO - Clicked on 'view' at (249, 20)
+2025-08-23 17:42:50,495 - INFO - Executed Action: {'action': 'click', 'target': 'view'}
+2025-08-28 15:14:52,792 - INFO - Computer Use Agent Started
+2025-08-28 15:15:02,411 - INFO - User Instruction: click view
+2025-08-28 15:15:02,838 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'view'}]
+2025-08-28 15:15:02,838 - INFO - Step 1: {'action': 'click', 'target': 'view'}
+2025-08-28 15:15:03,119 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-28 15:15:03,221 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-28 15:15:35,473 - INFO - OmniParser extracted 83 elements
+2025-08-28 15:15:35,474 - INFO - Parsed Screen Content: 83 UI elements
+2025-08-28 15:15:35,475 - INFO - Executing action: click on 'view'
+2025-08-28 15:15:35,475 - WARNING - Could not find element: 'view'
+2025-08-28 15:15:35,476 - ERROR - Failed to execute action: {'action': 'click', 'target': 'view'}
+2025-08-28 15:16:17,891 - INFO - User Instruction: click Terminal
+2025-08-28 15:16:18,213 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'Terminal'}]
+2025-08-28 15:16:18,214 - INFO - Step 1: {'action': 'click', 'target': 'Terminal'}
+2025-08-28 15:16:18,336 - INFO - Screenshot captured: screenshots\screen_step_1_click_Terminal.png
+2025-08-28 15:16:18,431 - INFO - Screenshot captured: screenshots\screen_step_1_click_Terminal.png
+2025-08-28 15:16:47,462 - INFO - OmniParser extracted 83 elements
+2025-08-28 15:16:47,462 - INFO - Parsed Screen Content: 83 UI elements
+2025-08-28 15:16:47,462 - INFO - Executing action: click on 'Terminal'
+2025-08-28 15:16:47,462 - WARNING - Could not find element: 'Terminal'
+2025-08-28 15:16:47,463 - ERROR - Failed to execute action: {'action': 'click', 'target': 'Terminal'}
+2025-08-28 15:19:11,126 - INFO - User Instruction: click on view
+2025-08-28 15:19:11,570 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'view'}]
+2025-08-28 15:19:11,571 - INFO - Step 1: {'action': 'click', 'target': 'view'}
+2025-08-28 15:19:11,673 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-28 15:19:11,774 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-28 15:19:37,375 - INFO - OmniParser extracted 202 elements
+2025-08-28 15:19:37,376 - INFO - Parsed Screen Content: 202 UI elements
+2025-08-28 15:19:37,376 - INFO - Executing action: click on 'view'
+2025-08-28 15:19:37,842 - INFO - Clicked on 'view' at (249, 23)
+2025-08-28 15:19:37,843 - INFO - Executed Action: {'action': 'click', 'target': 'view'}
+2025-08-28 15:21:25,025 - INFO - User Instruction: go to chrome then search youtube and then search despacito
+2025-08-28 15:21:26,016 - INFO - Interpreted Instructions: [{'action': 'open', 'target': 'chrome'}, {'action': 'wait', 'target': 'chrome loaded'}, {'action': 'hotkey', 'keys': 'ctrl+l'}, {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}, {'action': 'hotkey', 'keys': 'enter'}, {'action': 'wait', 'target': 'youtube loaded'}, {'action': 'type', 'target': 'search bar', 'text': 'despacito'}]
+2025-08-28 15:21:26,017 - INFO - Step 1: {'action': 'open', 'target': 'chrome'}
+2025-08-28 15:21:26,017 - INFO - Executing action: open on 'chrome'
+2025-08-28 15:21:26,028 - INFO - Opened application: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-08-28 15:21:26,028 - INFO - Executed Action: {'action': 'open', 'target': 'chrome'}
+2025-08-28 15:21:27,030 - INFO - Step 2: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-28 15:21:27,030 - INFO - Executing action: wait on 'chrome loaded'
+2025-08-28 15:21:29,031 - INFO - Waited for: chrome loaded
+2025-08-28 15:21:29,032 - INFO - Executed Action: {'action': 'wait', 'target': 'chrome loaded'}
+2025-08-28 15:21:29,034 - INFO - Step 3: {'action': 'hotkey', 'keys': 'ctrl+l'}
+2025-08-28 15:21:29,035 - INFO - Executing action: hotkey on ''
+2025-08-28 15:21:29,141 - INFO - Pressed hotkey: ctrl+l
+2025-08-28 15:21:29,141 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'ctrl+l'}
+2025-08-28 15:21:29,141 - INFO - Step 4: {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}
+2025-08-28 15:21:29,141 - INFO - Executing action: type on 'address bar'
+2025-08-28 15:21:30,136 - INFO - Typed 'youtube.com' in address bar
+2025-08-28 15:21:30,137 - INFO - Executed Action: {'action': 'type', 'target': 'address bar', 'text': 'youtube.com'}
+2025-08-28 15:21:30,138 - INFO - Step 5: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-28 15:21:30,139 - INFO - Executing action: hotkey on ''
+2025-08-28 15:21:30,244 - INFO - Pressed hotkey: enter
+2025-08-28 15:21:30,244 - INFO - Executed Action: {'action': 'hotkey', 'keys': 'enter'}
+2025-08-28 15:21:30,246 - INFO - Step 6: {'action': 'wait', 'target': 'youtube loaded'}
+2025-08-28 15:21:30,247 - INFO - Executing action: wait on 'youtube loaded'
+2025-08-28 15:21:32,248 - INFO - Waited for: youtube loaded
+2025-08-28 15:21:32,248 - INFO - Executed Action: {'action': 'wait', 'target': 'youtube loaded'}
+2025-08-28 15:21:32,249 - INFO - Step 7: {'action': 'type', 'target': 'search bar', 'text': 'despacito'}
+2025-08-28 15:21:32,250 - INFO - Executing action: type on 'search bar'
+2025-08-28 15:21:32,819 - INFO - Typed 'despacito' at current focus
+2025-08-28 15:21:32,820 - INFO - Executed Action: {'action': 'type', 'target': 'search bar', 'text': 'despacito'}
+2025-08-28 15:32:33,854 - INFO - Agent Stopped by User
+2025-08-28 15:32:41,096 - INFO - Computer Use Agent Started
+2025-08-28 15:32:50,061 - INFO - User Instruction: click go
+2025-08-28 15:32:50,852 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'go'}]
+2025-08-28 15:32:50,853 - INFO - Step 1: {'action': 'click', 'target': 'go'}
+2025-08-28 15:32:51,059 - INFO - Screenshot captured: screenshots\screen_step_1_click_go.png
+2025-08-28 15:32:51,141 - INFO - Screenshot captured: screenshots\screen_step_1_click_go.png
+2025-08-28 15:32:51,141 - WARNING - OmniParser CLI not found: omniparser_cli.py
+2025-08-28 15:32:51,142 - INFO - Parsed Screen Content: 0 UI elements
+2025-08-28 15:32:51,142 - INFO - Executing action: click on 'go'
+2025-08-28 15:32:51,143 - WARNING - Could not find element: 'go'
+2025-08-28 15:32:51,143 - ERROR - Failed to execute action: {'action': 'click', 'target': 'go'}
+2025-08-28 15:33:33,169 - INFO - User Instruction: click view
+2025-08-28 15:33:33,581 - INFO - Interpreted Instructions: [{'action': 'click', 'target': 'view'}]
+2025-08-28 15:33:33,582 - INFO - Step 1: {'action': 'click', 'target': 'view'}
+2025-08-28 15:33:33,715 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-28 15:33:33,805 - INFO - Screenshot captured: screenshots\screen_step_1_click_view.png
+2025-08-28 15:33:33,806 - WARNING - OmniParser CLI not found: omniparser_cli.py
+2025-08-28 15:33:33,807 - INFO - Parsed Screen Content: 0 UI elements
+2025-08-28 15:33:33,808 - INFO - Executing action: click on 'view'
+2025-08-28 15:33:33,808 - WARNING - Could not find element: 'view'
+2025-08-28 15:33:33,809 - ERROR - Failed to execute action: {'action': 'click', 'target': 'view'}
+2025-08-28 15:37:02,964 - INFO - Agent Stopped by User
+2025-08-28 15:42:21,033 - INFO - Agent started
+2025-08-28 15:42:47,570 - INFO - User Instruction: click view
+2025-08-28 15:58:36,070 - INFO - Agent stopped by user
+2025-08-28 16:16:41,599 - INFO - Agent started
+2025-08-28 16:16:50,669 - INFO - User Instruction: click edit
+2025-08-28 16:18:55,353 - INFO - Agent stopped by user
+2025-08-29 18:11:19,408 - INFO - Agent started
+2025-08-29 18:11:27,328 - INFO - User Instruction: click view
+2025-08-29 18:12:08,157 - INFO - User Instruction: click view
+2025-08-29 18:16:18,025 - INFO - Agent stopped by user
+2025-08-29 18:16:35,201 - INFO - Agent started
+2025-08-29 18:16:44,960 - INFO - User Instruction: click View
+2025-08-29 18:25:40,269 - INFO - Agent started
+2025-08-29 18:26:13,909 - INFO - User Instruction: click Docs
+2025-08-29 18:30:38,865 - INFO - Agent stopped by user
+2025-08-29 18:30:46,866 - INFO - Agent started
+2025-08-29 18:30:57,491 - INFO - User Instruction: click docs
+2025-08-29 18:31:41,848 - INFO - User Instruction: click view
+2025-08-29 18:37:33,462 - INFO - Agent stopped by user
+2025-08-29 18:37:40,401 - INFO - Agent started
+2025-08-29 18:37:46,016 - INFO - User Instruction: click view
+2025-08-29 18:37:47,154 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 18:37:47,283 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 18:37:47,313 - ERROR -  OmniServer error 404: {"detail":"Not Found"}
+2025-08-29 18:38:11,414 - INFO - User Instruction: open chrome click youtube
+2025-08-29 18:38:14,330 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_youtube.png
+2025-08-29 18:38:14,623 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_youtube.png
+2025-08-29 18:38:14,648 - ERROR -  OmniServer error 404: {"detail":"Not Found"}
+2025-08-29 18:41:41,716 - INFO - User Instruction: click view
+2025-08-29 18:41:42,496 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 18:41:42,679 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 18:41:42,700 - ERROR -  OmniServer error 404: {"detail":"Not Found"}
+2025-08-29 18:42:57,179 - INFO - User Instruction: open chrome search youtube then click akshat
+2025-08-29 18:43:41,145 - INFO - User Instruction: open chrome and search youtube
+2025-08-29 19:07:10,099 - INFO - User Instruction: quit
+2025-08-29 19:07:23,570 - INFO - Agent stopped by user
+2025-08-29 19:07:34,289 - INFO - Agent started
+2025-08-29 19:07:48,601 - INFO - User Instruction: click view
+2025-08-29 19:07:49,326 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:07:49,444 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:07:49,532 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-29 19:09:02,828 - INFO - Agent stopped by user
+2025-08-29 19:09:06,794 - INFO - Agent started
+2025-08-29 19:09:10,768 - INFO - User Instruction: click view
+2025-08-29 19:09:11,532 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:09:11,654 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:09:11,707 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-29 19:11:50,761 - INFO - Agent started
+2025-08-29 19:11:55,780 - INFO - User Instruction: click view
+2025-08-29 19:11:56,543 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:11:56,668 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:11:58,752 - ERROR -  Failed to contact OmniServer: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /parse_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AFFF45C500>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-29 19:12:18,722 - INFO - User Instruction: click view
+2025-08-29 19:12:19,365 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:12:19,485 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:12:19,548 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-29 19:13:26,810 - INFO - Agent stopped by user
+2025-08-29 19:18:05,516 - INFO - Agent started
+2025-08-29 19:18:10,649 - INFO - User Instruction: click view
+2025-08-29 19:18:11,772 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:18:11,982 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:18:12,045 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-29 19:18:23,455 - INFO - User Instruction: click edit
+2025-08-29 19:18:24,588 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_edit.png
+2025-08-29 19:18:24,723 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_edit.png
+2025-08-29 19:18:24,752 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-29 19:31:18,906 - INFO - Agent started
+2025-08-29 19:31:30,219 - INFO - Agent stopped by user
+2025-08-29 19:31:53,149 - INFO - Agent started
+2025-08-29 19:31:58,762 - INFO - User Instruction: click view
+2025-08-29 19:31:59,774 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:31:59,915 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-29 19:31:59,983 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-31 20:41:37,909 - INFO - Agent started
+2025-08-31 20:41:45,943 - INFO - User Instruction: click view
+2025-08-31 20:41:46,675 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-31 20:41:46,858 - INFO -  Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-31 20:41:46,920 - ERROR -  OmniServer error 404 and fallback failed: 500 Internal Server Error
+2025-08-31 20:44:50,158 - INFO - Agent stopped by user
+2025-08-31 20:46:44,607 - INFO - Agent started
+2025-08-31 20:46:50,700 - INFO - User Instruction: click view
+2025-08-31 20:46:51,471 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-31 20:46:51,531 - ERROR - OmniServer error 404: {"detail":"Not Found"}
+2025-08-31 20:48:20,411 - INFO - User Instruction: click view
+2025-08-31 20:48:20,974 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-08-31 20:48:23,052 - ERROR - Failed to contact OmniServer: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /parseimage/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B16FE8290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-31 20:53:55,786 - INFO - Agent stopped by user
+2025-08-31 20:56:24,136 - INFO - Agent started
+2025-08-31 20:56:30,589 - INFO - User Instruction: click help
+2025-08-31 20:56:31,434 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_help.png
+2025-08-31 20:56:31,482 - ERROR - OmniServer error 404: {"detail":"Not Found"}
+2025-08-31 21:00:07,833 - INFO - Agent started
+2025-08-31 21:00:24,324 - INFO - User Instruction: click Edit
+2025-08-31 21:00:25,075 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_edit.png
+2025-08-31 21:00:32,080 - INFO - OmniServer extracted 254 elements
+2025-08-31 21:02:35,918 - INFO - User Instruction: click Help
+2025-08-31 21:02:36,541 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_help.png
+2025-08-31 21:02:42,019 - INFO - OmniServer extracted 268 elements
+2025-08-31 21:09:51,327 - INFO - Agent stopped by user
+2025-09-01 12:34:20,231 - INFO - Agent started
+2025-09-01 12:34:26,839 - INFO - User Instruction: click run
+2025-09-01 12:34:27,520 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_run.png
+2025-09-01 12:34:27,541 - INFO - Screenshot size: 1920x1080
+2025-09-01 12:34:47,602 - INFO - OmniServer extracted 261 elements
+2025-09-01 14:08:27,567 - INFO - Agent started
+2025-09-01 14:08:43,812 - INFO - User Instruction: click view
+2025-09-01 14:08:44,436 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-09-01 14:08:52,428 - INFO - OmniServer extracted 260 elements
+2025-09-01 14:10:23,871 - INFO - User Instruction: click view then click testing
+2025-09-01 14:10:24,464 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view_then_click_testing.png
+2025-09-01 14:10:33,075 - INFO - OmniServer extracted 276 elements
+2025-09-01 14:10:56,754 - INFO - User Instruction: click terminal
+2025-09-01 14:10:57,253 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_terminal.png
+2025-09-01 14:11:07,688 - INFO - OmniServer extracted 279 elements
+2025-09-01 14:11:20,475 - INFO - User Instruction: click help
+2025-09-01 14:11:20,959 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_help.png
+2025-09-01 14:11:29,499 - INFO - OmniServer extracted 280 elements
+2025-09-01 14:39:35,046 - INFO - Agent stopped by user
+2025-09-01 14:42:12,688 - INFO - Agent started
+2025-09-01 14:42:39,349 - INFO - User Instruction: click recycle bin then open chrome
+2025-09-01 14:42:40,357 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_recycle_bin_then_open_chrome.png
+2025-09-01 14:42:43,345 - INFO - OmniServer extracted 37 elements
+2025-09-01 14:43:02,425 - INFO - User Instruction: click reclyle bin
+2025-09-01 14:43:03,318 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_reclyle_bin.png
+2025-09-01 14:43:06,173 - INFO - OmniServer extracted 37 elements
+2025-09-01 14:43:12,997 - INFO - User Instruction: recycle bin
+2025-09-01 14:43:13,818 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_unknown_recycle_bin.png
+2025-09-01 14:43:16,761 - INFO - OmniServer extracted 37 elements
+2025-09-01 14:43:48,166 - INFO - User Instruction: click go
+2025-09-01 14:43:48,768 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_go.png
+2025-09-01 14:43:57,537 - INFO - OmniServer extracted 289 elements
+2025-09-01 14:47:29,623 - INFO - User Instruction: open chrome
+2025-09-01 14:47:30,155 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_chrome.png
+2025-09-01 14:47:34,335 - INFO - OmniServer extracted 171 elements
+2025-09-01 14:47:48,223 - INFO - User Instruction: search youtube
+2025-09-01 14:47:48,813 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_unknown_search_youtube.png
+2025-09-01 14:47:51,462 - INFO - OmniServer extracted 59 elements
+2025-09-01 14:47:59,669 - INFO - User Instruction: click youtube
+2025-09-01 14:48:00,164 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_youtube.png
+2025-09-01 14:48:02,801 - INFO - OmniServer extracted 59 elements
+2025-09-01 14:49:13,015 - INFO - User Instruction: open notepad type akshat
+2025-09-01 14:49:13,878 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_notepad_type_akshat.png
+2025-09-01 14:49:16,479 - INFO - OmniServer extracted 38 elements
+2025-09-01 14:49:36,258 - INFO - User Instruction: go to notepad
+2025-09-01 14:49:36,780 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_navigate_notepad.png
+2025-09-01 14:49:40,721 - INFO - OmniServer extracted 130 elements
+2025-09-01 14:50:01,507 - INFO - User Instruction: open notepad
+2025-09-01 14:50:02,364 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_notepad.png
+2025-09-01 14:50:04,912 - INFO - OmniServer extracted 37 elements
+2025-09-01 14:50:19,101 - INFO - User Instruction: type akshat
+2025-09-01 14:50:19,686 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_type_.png
+2025-09-01 14:50:22,165 - INFO - OmniServer extracted 64 elements
+2025-09-01 14:50:49,866 - INFO - User Instruction: type akshat in page of notepad
+2025-09-01 14:50:50,434 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_type_.png
+2025-09-01 14:50:53,002 - INFO - OmniServer extracted 64 elements
+2025-09-01 14:52:05,981 - INFO - User Instruction: click perplexity
+2025-09-01 14:52:06,878 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_perplexity.png
+2025-09-01 14:52:09,427 - INFO - OmniServer extracted 37 elements
+2025-09-01 14:54:36,461 - INFO - User Instruction: click agent.py
+2025-09-01 14:54:37,110 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_agent.py.png
+2025-09-01 14:54:42,364 - INFO - OmniServer extracted 206 elements
+2025-09-01 15:00:29,084 - INFO - User Instruction: click notepad
+2025-09-01 15:00:30,382 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_notepad.png
+2025-09-01 15:00:32,942 - INFO - OmniServer extracted 37 elements
+2025-09-01 15:08:35,979 - INFO - Agent stopped by user
+2025-09-01 15:08:40,804 - INFO - Agent started
+2025-09-01 15:08:52,710 - INFO - User Instruction: click cursor
+2025-09-01 15:08:53,647 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_cursor.png
+2025-09-01 15:08:56,114 - INFO - OmniServer extracted 37 elements
+2025-09-01 15:09:13,386 - INFO - User Instruction: click run
+2025-09-01 15:09:13,903 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_run.png
+2025-09-01 15:09:19,671 - INFO - OmniServer extracted 281 elements
+2025-09-01 15:09:24,204 - INFO - User Instruction: click view
+2025-09-01 15:09:24,704 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-09-01 15:09:30,464 - INFO - OmniServer extracted 281 elements
+2025-09-01 15:11:24,481 - INFO - Agent stopped by user
+2025-09-01 15:11:27,478 - INFO - Agent started
+2025-09-01 15:11:32,996 - INFO - User Instruction: click edit
+2025-09-01 15:11:33,561 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_edit.png
+2025-09-01 15:11:39,685 - INFO - OmniServer extracted 292 elements
+2025-09-01 15:11:39,685 - WARNING - No UI element matched target 'edit'
+2025-09-01 15:11:39,686 - WARNING - Cannot click: no bbox found for target 'edit'
+2025-09-01 15:11:47,420 - INFO - User Instruction: view
+2025-09-01 15:12:05,081 - INFO - User Instruction: click terminal
+2025-09-01 15:12:05,603 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_terminal.png
+2025-09-01 15:12:11,802 - INFO - OmniServer extracted 300 elements
+2025-09-01 15:12:11,803 - WARNING - No UI element matched target 'terminal'
+2025-09-01 15:12:11,803 - WARNING - Cannot click: no bbox found for target 'terminal'
+2025-09-01 15:17:12,423 - INFO - Agent stopped by user
+2025-09-01 15:17:19,656 - INFO - Agent started
+2025-09-01 15:17:26,762 - INFO - User Instruction: click view
+2025-09-01 15:17:27,347 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-09-01 15:17:32,938 - INFO - OmniServer extracted 272 elements
+2025-09-01 15:18:07,731 - INFO - User Instruction: click view then click run
+2025-09-01 15:18:08,242 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view_then_click_run.png
+2025-09-01 15:18:13,913 - INFO - OmniServer extracted 266 elements
+2025-09-01 15:21:40,171 - INFO - User Instruction: click recycle bin
+2025-09-01 15:21:41,070 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_recycle_bin.png
+2025-09-01 15:21:43,735 - INFO - OmniServer extracted 39 elements
+2025-09-01 15:37:38,960 - INFO - User Instruction: click library
+2025-09-01 15:37:39,561 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_library.png
+2025-09-01 15:37:43,734 - INFO - OmniServer extracted 140 elements
+2025-09-01 15:37:59,376 - INFO - User Instruction: click new chat
+2025-09-01 15:37:59,888 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_new_chat.png
+2025-09-01 15:38:02,782 - INFO - OmniServer extracted 74 elements
+2025-09-01 16:13:48,010 - INFO - Agent stopped by user
+2025-09-01 16:13:58,144 - INFO - Agent started
+2025-09-01 16:14:08,577 - INFO - User Instruction: click recycle bin
+2025-09-01 16:14:09,711 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_recycle_bin.png
+2025-09-01 16:14:12,458 - INFO - OmniServer extracted 40 elements
+2025-09-01 16:14:48,031 - INFO - User Instruction: Go to Desktop, create file name Akshat
+2025-09-01 16:15:08,918 - INFO - User Instruction: Open Chrome, type youtube, then search Despacito
+2025-09-01 16:15:45,968 - INFO - User Instruction: Open Chrome, type youtube, then search Despacito
+2025-09-01 16:16:15,637 - INFO - User Instruction: Turn on Bluetooth
+2025-09-01 16:16:29,037 - INFO - User Instruction: Lower volume
+2025-09-01 16:16:29,442 - INFO - User Instruction: Lower brightness
+2025-09-01 16:16:41,035 - INFO - User Instruction: Open Chrome, type youtube, then search Despacito
+2025-09-01 16:16:51,987 - INFO - User Instruction: Go to Desktop, create file name Akshat
+2025-09-01 16:19:53,395 - INFO - User Instruction: click recycle bin then click perplexity
+2025-09-01 16:19:54,512 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_recycle_bin_then_click_perplexity.png
+2025-09-01 16:19:57,135 - INFO - OmniServer extracted 40 elements
+2025-09-01 16:20:09,329 - INFO - User Instruction: click perplexity
+2025-09-01 16:20:10,128 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_perplexity.png
+2025-09-01 16:20:12,709 - INFO - OmniServer extracted 40 elements
+2025-09-01 16:21:33,352 - INFO - Agent stopped by user
+2025-09-01 16:21:37,234 - INFO - Agent started
+2025-09-01 16:22:03,193 - INFO - User Instruction: Open Chrome, type youtube, then search Despacito
+2025-09-01 16:22:39,086 - INFO - User Instruction: Turn on Bluetooth
+2025-09-01 16:22:47,101 - INFO - User Instruction: Lower brightness
+2025-09-01 16:22:59,788 - INFO - User Instruction: Open Notepad, type Akshat, press Alt+F4
+2025-09-01 16:24:44,325 - INFO - Agent stopped by user
+2025-09-01 16:26:06,860 - INFO - Agent started
+2025-09-01 16:26:12,557 - INFO - User Instruction: Open Chrome, type youtube, then search Despacito
+2025-09-01 16:28:34,866 - INFO - Agent stopped by user
+2025-09-01 16:28:38,861 - INFO - Agent started
+2025-09-01 16:28:43,943 - INFO - User Instruction: Open Chrome, type youtube, then search Despacito
+2025-09-01 16:28:48,412 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_5_click_search.png
+2025-09-01 16:28:53,601 - INFO - OmniServer extracted 141 elements
+2025-09-01 16:30:22,880 - INFO - User Instruction: Open Chrome go to youtube
+2025-09-01 16:30:44,243 - INFO - User Instruction: click youtube
+2025-09-01 16:30:44,837 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_youtube.png
+2025-09-01 16:30:48,448 - INFO - OmniServer extracted 137 elements
+2025-09-01 16:31:49,144 - INFO - User Instruction: Lower brightness
+2025-09-01 16:31:50,607 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_brightness_down.png
+2025-09-01 16:31:53,271 - INFO - OmniServer extracted 40 elements
+2025-09-01 16:32:06,268 - INFO - User Instruction: Turn on Bluetooth
+2025-09-01 16:32:07,193 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_bluetooth.png
+2025-09-01 16:32:10,496 - INFO - OmniServer extracted 81 elements
+2025-09-01 16:32:11,477 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_3_click_on.png
+2025-09-01 16:32:14,625 - INFO - OmniServer extracted 81 elements
+2025-09-01 17:05:57,603 - INFO - User Instruction: Turn on Bluetooth
+2025-09-01 17:05:58,580 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_bluetooth.png
+2025-09-01 17:06:02,499 - INFO - OmniServer extracted 103 elements
+2025-09-01 17:06:03,577 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_3_click_on.png
+2025-09-01 17:06:08,028 - INFO - OmniServer extracted 84 elements
+2025-09-01 17:06:25,476 - INFO - User Instruction: Turn on wifi
+2025-09-01 17:15:22,178 - INFO - Agent stopped by user
+2025-09-01 17:15:30,091 - INFO - Agent started
+2025-09-01 17:15:32,264 - INFO - User Instruction: Open Chrome, go to youtube.com, search Despacito, play the top video.
+2025-09-01 17:15:55,116 - INFO - User Instruction: Go to desktop, create a new file named Akshat, open it in Notepad, type Hello World, and save.
+2025-09-01 17:16:07,470 - INFO - User Instruction: Go to desktop, create a new file named Akshat, open it in Notepad, type Hello World, and save.
+2025-09-01 17:16:30,375 - INFO - User Instruction: Lower the volume by 5 steps.
+2025-09-01 17:16:36,952 - INFO - User Instruction: Turn on Bluetooth.
+2025-09-01 17:20:31,978 - INFO - User Instruction: Open Chrome, go to youtube.com, search Relaxing Music, then open Notepad, type My Notes, save it, and lower volume.
+2025-09-01 17:20:37,985 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_5_click_search.png
+2025-09-01 17:20:42,180 - INFO - OmniServer extracted 137 elements
+2025-09-01 17:28:34,714 - INFO - Agent stopped by user
+2025-09-01 17:28:39,354 - INFO - Agent started
+2025-09-01 17:28:54,533 - INFO - User Instruction: Turn on Bluetooth and increase brightness
+2025-09-01 17:29:09,581 - INFO - User Instruction: Go to desktop, create a file named Akshat, open it in Notepad, type Hello World, and save
+2025-09-01 17:29:32,068 - INFO - User Instruction: Open Chrome, go to youtube.com
+2025-09-01 17:29:50,723 - INFO - User Instruction: Go to desktop
+2025-09-01 17:34:53,961 - INFO - Agent stopped by user
+2025-09-01 17:35:33,240 - INFO - Agent started
+2025-09-01 17:35:44,048 - INFO - User Instruction: Open Chrome
+2025-09-01 17:35:53,484 - INFO - User Instruction: Open Notepad, type Hello World
+2025-09-01 17:36:06,143 - INFO - User Instruction: Go to desktop, create a file named TestFile.txt, open it in Notepad, type Hello World, save file
+2025-09-01 17:37:42,414 - INFO - Agent stopped by user
+2025-09-01 17:37:45,580 - INFO - Agent started
+2025-09-01 17:37:59,930 - INFO - User Instruction: click recycle bin
+2025-09-01 17:40:01,431 - INFO - Agent stopped by user
+2025-09-01 17:40:05,241 - INFO - Agent started
+2025-09-01 17:40:15,468 - INFO - User Instruction: click wispr flow
+2025-09-01 17:40:16,396 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_wispr_flow.png
+2025-09-01 17:40:18,938 - INFO - OmniServer extracted 39 elements
+2025-09-01 17:40:55,018 - INFO - User Instruction: Open Calculator
+2025-09-01 17:41:16,195 - INFO - User Instruction: Type Hello World
+2025-09-01 17:41:43,409 - INFO - User Instruction: Navigate to Downloads
+2025-09-01 17:42:08,048 - INFO - User Instruction: Go to youtube.com
+2025-09-01 17:42:32,842 - INFO - User Instruction: Go to amazon.in
+2025-09-01 17:42:55,797 - INFO - User Instruction: Open Chrome, go to youtube.com, search Relaxing Music
+2025-09-01 17:43:13,968 - INFO - User Instruction: Lower the volume by 5 step
+2025-09-01 17:43:33,464 - INFO - User Instruction: Open Chrome, go to youtube.com, search Relaxing Music, then open Notepad, type My Notes, save it, and lower volume
+2025-09-01 17:53:09,074 - INFO - Agent stopped by user
+2025-09-01 17:53:15,044 - INFO - Agent started
+2025-09-01 17:53:36,946 - INFO - User Instruction: Open Notepad, type Hello World
+2025-09-01 17:53:54,102 - INFO - User Instruction: Navigate to Downloads
+2025-09-01 17:54:18,978 - INFO - User Instruction: Open Chrome, go to youtube.com, search Relaxing Music
+2025-09-01 17:54:22,223 - INFO - User Instruction: Open Notepad, type My Notes, save file
+2025-09-01 17:54:25,529 - INFO - User Instruction: Navigate to Desktop, create a file named TestFile.txt, open it in Notepad, type Hello World, save
+2025-09-01 17:59:45,499 - INFO - User Instruction: open dekstop folder
+2025-09-01 18:00:02,034 - INFO - User Instruction: go to desktop
+2025-09-01 18:11:20,264 - INFO - Agent stopped by user
+2025-09-01 19:01:14,156 - INFO - Agent started
+2025-09-01 19:01:20,872 - INFO - User Instruction: Go to Desktop
+2025-09-01 19:01:34,544 - INFO - User Instruction: click recycle bin
+2025-09-01 19:07:49,610 - INFO - Agent stopped by user
+2025-09-01 19:07:52,175 - INFO - Agent started
+2025-09-01 19:07:56,007 - INFO - User Instruction: open chrome
+2025-09-01 19:17:12,673 - INFO - Agent stopped by user
+2025-09-01 19:17:16,746 - INFO - Agent started
+2025-09-01 19:17:20,280 - INFO - User Instruction: click recycle bin
+2025-09-01 19:29:03,737 - INFO - User Instruction: Open Notepad, type Hello World
+2025-09-01 19:29:26,068 - INFO - User Instruction: click recycle bin
+2025-09-01 19:35:41,473 - INFO - Agent stopped by user
+2025-09-02 10:17:21,693 - INFO - Agent started
+2025-09-02 10:17:37,244 - INFO - User Instruction: click edit
+2025-09-02 10:18:00,490 - INFO - User Instruction: click edit button
+2025-09-02 10:18:01,276 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_edit_button.png
+2025-09-02 10:18:10,723 - INFO - OmniServer extracted 282 elements
+2025-09-02 10:18:26,102 - INFO - User Instruction: click view
+2025-09-02 10:21:40,891 - INFO - Agent stopped by user
+2025-09-02 11:09:58,761 - INFO - Agent started
+2025-09-02 11:10:07,753 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:10:08,659 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:10:17,467 - INFO - OmniServer extracted 287 elements
+2025-09-02 11:10:20,565 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:10:29,011 - INFO - OmniServer extracted 288 elements
+2025-09-02 11:10:31,404 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:10:36,697 - INFO - OmniServer extracted 49 elements
+2025-09-02 11:10:39,454 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:10:44,575 - INFO - OmniServer extracted 54 elements
+2025-09-02 11:10:47,169 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:10:52,272 - INFO - OmniServer extracted 53 elements
+2025-09-02 11:10:54,936 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:10:59,897 - INFO - OmniServer extracted 57 elements
+2025-09-02 11:11:02,135 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:11:10,793 - INFO - OmniServer extracted 302 elements
+2025-09-02 11:11:13,008 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1.png
+2025-09-02 11:11:15,086 - INFO - Agent stopped by user
+2025-09-02 11:20:18,401 - INFO - Agent started
+2025-09-02 11:20:23,200 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:20:24,007 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_navigate_YouTube.com.png
+2025-09-02 11:20:32,062 - INFO - OmniServer extracted 291 elements
+2025-09-02 11:20:34,299 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_4_click_.png
+2025-09-02 11:20:39,093 - INFO - OmniServer extracted 53 elements
+2025-09-02 11:26:32,479 - INFO - Agent stopped by user
+2025-09-02 11:26:41,153 - INFO - Agent started
+2025-09-02 11:27:03,063 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:27:06,922 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_navigate_YouTube.com.png
+2025-09-02 11:27:14,536 - INFO - OmniServer extracted 281 elements
+2025-09-02 11:27:20,211 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_4_click_.png
+2025-09-02 11:27:28,737 - INFO - OmniServer extracted 144 elements
+2025-09-02 11:38:59,767 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:39:03,750 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_navigate_YouTube.com.png
+2025-09-02 11:39:11,643 - INFO - OmniServer extracted 277 elements
+2025-09-02 11:41:05,855 - INFO - User Instruction: click view
+2025-09-02 11:41:09,625 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-09-02 11:41:19,711 - INFO - OmniServer extracted 405 elements
+2025-09-02 11:44:19,526 - INFO - User Instruction: search despacito
+2025-09-02 11:44:23,489 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_search_bar.png
+2025-09-02 11:44:31,651 - INFO - OmniServer extracted 135 elements
+2025-09-02 11:49:15,834 - INFO - Agent stopped by user
+2025-09-02 11:49:51,708 - INFO - Agent started
+2025-09-02 11:50:00,896 - INFO - User Instruction: go to YouTube then search Despacito
+2025-09-02 11:50:05,284 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 11:50:10,476 - INFO - OmniServer extracted 37 elements
+2025-09-02 11:50:17,426 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_search.png
+2025-09-02 11:50:25,697 - INFO - OmniServer extracted 124 elements
+2025-09-02 11:51:34,916 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:51:39,081 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 11:51:44,273 - INFO - OmniServer extracted 37 elements
+2025-09-02 11:55:41,121 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:55:45,359 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 11:55:50,534 - INFO - OmniServer extracted 37 elements
+2025-09-02 11:57:35,110 - INFO - Agent stopped by user
+2025-09-02 11:57:39,657 - INFO - Agent started
+2025-09-02 11:57:43,756 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 11:57:47,864 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 11:57:53,123 - INFO - OmniServer extracted 37 elements
+2025-09-02 12:03:31,953 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 12:03:36,093 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 12:03:41,289 - INFO - OmniServer extracted 36 elements
+2025-09-02 12:07:27,578 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 12:07:31,422 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 12:07:40,762 - INFO - OmniServer extracted 163 elements
+2025-09-02 12:09:22,812 - INFO - Agent stopped by user
+2025-09-02 12:09:27,179 - INFO - Agent started
+2025-09-02 12:09:33,673 - INFO - User Instruction: go to YouTube
+2025-09-02 12:09:37,403 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_YouTube.png
+2025-09-02 12:09:47,429 - INFO - OmniServer extracted 164 elements
+2025-09-02 12:15:39,859 - INFO - Agent stopped by user
+2025-09-02 12:15:47,873 - INFO - Agent started
+2025-09-02 12:15:50,214 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 12:15:56,943 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_4_click_search.png
+2025-09-02 12:16:06,133 - INFO - OmniServer extracted 137 elements
+2025-09-02 12:20:24,639 - INFO - User Instruction: open chrome
+2025-09-02 12:20:45,844 - INFO - User Instruction: search youtube
+2025-09-02 12:20:49,931 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_search.png
+2025-09-02 12:20:59,243 - INFO - OmniServer extracted 140 elements
+2025-09-02 12:21:50,055 - INFO - User Instruction: go to desktop
+2025-09-02 12:22:07,908 - INFO - User Instruction: create folder name it Akshat
+2025-09-02 12:22:08,551 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_new_folder.png
+2025-09-02 12:22:15,135 - INFO - OmniServer extracted 115 elements
+2025-09-02 12:22:45,489 - INFO - User Instruction: go to Users
+2025-09-02 12:22:54,650 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\navigate_Users.png
+2025-09-02 12:23:01,455 - INFO - OmniServer extracted 96 elements
+2025-09-02 12:23:20,545 - INFO - User Instruction: go to AkshatGaikar
+2025-09-02 12:23:38,223 - INFO - User Instruction: open notepad
+2025-09-02 12:24:00,717 - INFO - User Instruction: type 'akshat' in notepad
+2025-09-02 12:25:14,579 - INFO - User Instruction: go to setting lower brightness
+2025-09-02 12:25:18,728 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_3_click_brightness.png
+2025-09-02 12:25:25,380 - INFO - OmniServer extracted 75 elements
+2025-09-02 12:25:46,399 - INFO - User Instruction: turn on bluetooth
+2025-09-02 12:25:50,351 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_bluetooth.png
+2025-09-02 12:25:56,755 - INFO - OmniServer extracted 75 elements
+2025-09-02 12:48:07,515 - INFO - Agent stopped by user
+2025-09-02 12:51:00,856 - INFO - Agent started
+2025-09-02 12:51:07,127 - INFO - User Instruction: go to YouTube
+2025-09-02 12:51:28,891 - INFO - User Instruction: play song despacito
+2025-09-02 12:51:32,934 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_play.png
+2025-09-02 12:51:41,922 - INFO - OmniServer extracted 109 elements
+2025-09-02 12:55:38,928 - INFO - Agent stopped by user
+2025-09-02 19:08:28,614 - INFO - Agent started
+2025-09-02 19:08:33,668 - INFO - User Instruction: Open Notepad and type Akshat
+2025-09-02 19:08:37,573 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_Notepad.png
+2025-09-02 19:08:43,178 - INFO - OmniServer extracted 106 elements
+2025-09-02 19:09:01,330 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 19:09:05,119 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_youtube.png
+2025-09-02 19:09:10,412 - INFO - OmniServer extracted 106 elements
+2025-09-02 19:09:17,454 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_search.png
+2025-09-02 19:09:23,990 - INFO - OmniServer extracted 126 elements
+2025-09-02 19:12:21,223 - INFO - User Instruction: calculate 2 plus 2
+2025-09-02 19:12:25,036 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_calculator.png
+2025-09-02 19:12:29,529 - INFO - OmniServer extracted 74 elements
+2025-09-02 19:16:17,136 - INFO - Agent stopped by user
+2025-09-02 19:16:21,456 - INFO - Agent started
+2025-09-02 19:16:24,413 - INFO - User Instruction: open desktop
+2025-09-02 19:16:45,245 - INFO - User Instruction: Calculate 2 plus 2
+2025-09-02 19:16:49,564 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_type_.png
+2025-09-02 19:16:52,061 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:16:53,254 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_3_type_.png
+2025-09-02 19:16:55,580 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:16:56,787 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_4_type_.png
+2025-09-02 19:16:59,214 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:17:21,901 - INFO - User Instruction: click plus
+2025-09-02 19:17:23,452 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_plus.png
+2025-09-02 19:17:25,828 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:18:39,576 - INFO - User Instruction: open setting then turn on bluetooth
+2025-09-02 19:18:44,601 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_bluetooth.png
+2025-09-02 19:18:47,021 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:21:39,944 - INFO - Agent stopped by user
+2025-09-02 19:22:46,472 - INFO - Agent started
+2025-09-02 19:22:54,349 - INFO - User Instruction: Calculate 2 plus 2
+2025-09-02 19:22:55,139 - ERROR - Error in main loop: 'str' object has no attribute 'get'
+2025-09-02 19:24:23,464 - INFO - Agent stopped by user
+2025-09-02 19:24:29,427 - INFO - Agent started
+2025-09-02 19:24:33,278 - INFO - User Instruction: go to YouTube then search for "Despacito lyrics" and play
+2025-09-02 19:24:38,423 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_3_click_search_bar.png
+2025-09-02 19:24:40,921 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:24:41,985 - INFO - Window screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_4_type_search_bar.png
+2025-09-02 19:24:44,464 - ERROR - OmniServer error 500: Internal Server Error
+2025-09-02 19:30:42,333 - INFO - Agent stopped by user
+2025-09-02 19:44:04,952 - INFO - Agent started
+2025-09-02 19:44:08,335 - INFO - User Instruction: Open Notepad and write "Hello World"
+2025-09-02 19:44:12,541 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_type_text_editor.png
+2025-09-02 19:44:16,913 - INFO - OmniServer extracted 55 elements
+2025-09-02 19:44:30,769 - INFO - User Instruction: go to desktop
+2025-09-02 19:44:40,283 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\navigate_desktop.com.png
+2025-09-02 19:44:45,419 - INFO - OmniServer extracted 56 elements
+2025-09-02 19:45:01,041 - INFO - User Instruction: open youtube
+2025-09-02 19:46:25,684 - INFO - User Instruction: click recycle bin
+2025-09-02 19:46:26,725 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_recycle_bin.png
+2025-09-02 19:46:31,300 - INFO - OmniServer extracted 37 elements
+2025-09-02 19:52:18,151 - INFO - Agent stopped by user
+2025-09-02 19:52:20,760 - INFO - Agent started
+2025-09-02 19:52:30,684 - INFO - User Instruction: Open Notepad and type Akshat
+2025-09-02 19:52:31,377 - ERROR - Error in main loop: 'str' object has no attribute 'get'
+2025-09-02 19:53:01,068 - INFO - User Instruction: Open Notepad and type Akshat
+2025-09-02 19:53:01,998 - ERROR - Error in main loop: 'str' object has no attribute 'get'
+2025-09-02 19:55:59,485 - INFO - User Instruction: Open Notepad and type Akshat
+2025-09-02 19:56:00,123 - ERROR - Error in main loop: 'str' object has no attribute 'get'
+2025-09-02 19:57:15,536 - INFO - Agent stopped by user
+2025-09-02 19:57:19,413 - INFO - Agent started
+2025-09-02 19:57:23,299 - INFO - User Instruction: open youtube
+2025-09-02 19:57:23,900 - ERROR - Error in main loop: 'str' object has no attribute 'get'
+2025-09-02 20:05:44,943 - INFO - Agent stopped by user
+2025-09-02 20:05:49,903 - INFO - Agent started
+2025-09-02 20:05:55,205 - INFO - User Instruction: Go to YouTube and play Despacito
+2025-09-02 20:05:59,131 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_youtube.png
+2025-09-02 20:06:04,581 - INFO - OmniServer extracted 111 elements
+2025-09-02 20:06:36,278 - INFO - User Instruction: calculate 2 plus 2
+2025-09-02 20:06:40,365 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_calculator.png
+2025-09-02 20:06:45,126 - INFO - OmniServer extracted 37 elements
+2025-09-02 20:07:12,665 - INFO - User Instruction: go to desktop
+2025-09-02 20:07:16,637 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_navigate_desktop.png
+2025-09-02 20:07:21,332 - INFO - OmniServer extracted 38 elements
+2025-09-02 20:07:35,213 - INFO - User Instruction: go to omnitool
+2025-09-02 20:07:38,954 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_browser.png
+2025-09-02 20:07:43,739 - INFO - OmniServer extracted 107 elements
+2025-09-02 20:08:07,580 - INFO - User Instruction: open notepad type akshat
+2025-09-02 20:08:11,544 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_notepad.png
+2025-09-02 20:08:16,097 - INFO - OmniServer extracted 38 elements
+2025-09-02 20:08:40,868 - INFO - User Instruction: go to setting increase brigthness
+2025-09-02 20:08:45,323 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_navigate_settings.png
+2025-09-02 20:08:49,850 - INFO - OmniServer extracted 38 elements
+2025-09-02 20:09:00,704 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_display.png
+2025-09-02 20:09:05,458 - INFO - OmniServer extracted 57 elements
+2025-09-02 20:09:28,100 - INFO - User Instruction: increase brightness
+2025-09-02 20:09:57,985 - INFO - User Instruction: turn on bluetooth
+2025-09-02 20:10:02,095 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_system_settings.png
+2025-09-02 20:10:06,639 - INFO - OmniServer extracted 36 elements
+2025-09-02 20:10:30,007 - INFO - User Instruction: open chrome
+2025-09-02 20:10:33,962 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_chrome.png
+2025-09-02 20:10:38,532 - INFO - OmniServer extracted 36 elements
+2025-09-02 20:11:07,540 - INFO - User Instruction: Go to YouTube and play syncs
+2025-09-02 20:11:11,584 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_youtube.png
+2025-09-02 20:11:16,203 - INFO - OmniServer extracted 37 elements
