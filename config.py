@@ -1,9 +1,9 @@
 # config.py - Configuration for Computer Use Agent
 import os
 # Groq API Configuration
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 GROQ_MODEL = "llama-3.3-70b-versatile"
-GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+GROQ_BASE_URL = ""
 
 # Directories
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
