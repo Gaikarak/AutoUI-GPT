@@ -1045,3 +1045,18 @@
 2025-09-02 20:11:07,540 - INFO - User Instruction: Go to YouTube and play syncs
 2025-09-02 20:11:11,584 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_youtube.png
 2025-09-02 20:11:16,203 - INFO - OmniServer extracted 37 elements
+2025-09-09 15:05:22,445 - INFO - Agent started
+2025-09-09 15:05:29,114 - INFO - User Instruction: click view
+2025-09-09 15:05:32,978 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_view.png
+2025-09-09 15:05:42,563 - INFO - OmniServer extracted 253 elements
+2025-09-09 15:06:02,109 - INFO - User Instruction: click edit
+2025-09-09 15:06:05,921 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_click_edit.png
+2025-09-09 15:06:14,360 - INFO - OmniServer extracted 252 elements
+2025-09-09 15:06:32,093 - INFO - User Instruction: open notepad
+2025-09-09 15:06:35,758 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_notepad.png
+2025-09-09 15:06:44,037 - INFO - OmniServer extracted 256 elements
+2025-09-09 15:11:02,663 - INFO - User Instruction: open youtube search Bollywood
+2025-09-09 15:11:06,510 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_1_open_youtube.png
+2025-09-09 15:11:12,770 - INFO - OmniServer extracted 113 elements
+2025-09-09 15:11:18,866 - INFO - Screenshot saved: C:\Users\AkshatGaikar\OmniParser\ui-agent\screenshots\step_2_click_search.png
+2025-09-09 15:11:26,825 - INFO - OmniServer extracted 112 elements
